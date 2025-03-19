@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-    font-family: 'calibri' ,'Arial', sans-serif;
+    font-family: 'calibri', 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -47,4 +47,40 @@ li {
 
 p {
     font-size: 1.1em;
+}
+
+
+.s1p {
+    background: linear-gradient(90deg, rgba(177, 43, 219, 1) 0%, rgba(161, 105, 232, 1) 28%, rgba(213, 189, 255, 1) 40%, rgba(224, 226, 250, 1) 50%, rgba(215, 211, 247, 1) 59%, rgba(147, 126, 228, 1) 75%, rgba(171, 43, 219, 1) 100%);
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.s1 {
+    padding: 25px 35px 25px 35px;
+    font-family: "Boucherie Block";
+    color: black;
+    /* mix-blend-mode: difference; rgb(207 119 237);rgb(174 137 247);rgb(135 70 121);*/
+    isolation: isolate;
+
+}
+
+.t1 {
+    padding: 25px 35px;
+    background: rgb(27, 12, 34);
+    background: linear-gradient(90deg, rgba(27, 12, 34, 1) 0%, rgba(55, 8, 76, 1) 21%, rgba(61, 22, 96, 1) 47%, rgba(53, 12, 65, 1) 75%, rgba(27, 12, 34, 1) 100%);
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    /* Ensure the element does not exceed the viewport width */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width */
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    font-family: "Boucherie Block";
+
 }
