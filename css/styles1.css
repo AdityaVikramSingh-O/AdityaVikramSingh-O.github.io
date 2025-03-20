@@ -69,6 +69,7 @@ p {
 .s1 {
     padding: 25px 35px 25px 35px;
     font-family: 'BoucherieBlock';
+    font-size: 1.1em;
     color: black;
     /* mix-blend-mode: difference; rgb(207 119 237);rgb(174 137 247);rgb(135 70 121);*/
     isolation: isolate;
