@@ -1,4 +1,11 @@
 /* styles.css */
+@font-face {
+    font-family: 'BoucherieBlock';
+    src: url('../font/BoucherieBlock.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
     font-family: 'calibri', 'Arial', sans-serif;
@@ -61,7 +68,7 @@ p {
 
 .s1 {
     padding: 25px 35px 25px 35px;
-    font-family: "Boucherie Block";
+    font-family: "BoucherieBlock";
     color: black;
     /* mix-blend-mode: difference; rgb(207 119 237);rgb(174 137 247);rgb(135 70 121);*/
     isolation: isolate;
