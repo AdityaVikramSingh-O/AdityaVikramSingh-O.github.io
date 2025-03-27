@@ -82,60 +82,7 @@ textarea {
     resize: none
 }
 
-button:focus,
-input:focus,
-textarea:focus {
-    outline: 0
-}
 
-button:hover,
-input[type=submit]:hover {
-    cursor: pointer
-}
-
-button {
-    position: relative;
-    pointer-events: all;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    overflow: visible;
-    background-color: transparent
-}
-
-button,
-html input[type=button],
-input[type=reset] {
-    cursor: pointer
-}
-
-button[disabled],
-html input[disabled] {
-    cursor: default
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0
-}
-
-[type=button],
-[type=reset],
-button {
-    border: 0;
-    cursor: pointer
-}
-
-input::-ms-clear {
-    display: none
-}
-
-input[type=checkbox],
-input[type=radio] {
-    box-sizing: border-box;
-    padding: 0
-}
 
 textarea {
     overflow: auto;
@@ -189,46 +136,6 @@ svg {
     -ms-user-select: none
 }
 
-img {
-    height: auto
-}
-
-img,
-video {
-    width: 100%
-}
-
-video {
-    height: 100%;
-    display: inline-block;
-    vertical-align: baseline;
-    object-fit: cover !important
-}
-
-iframe {
-    position: absolute
-}
-
-address {
-    font-style: normal
-}
-
-@font-face {
-    font-family: NT Dapper;
-    src: url(../fonts/NTDapperR.woff2) format("woff2"), url(../fonts/NTDapperR.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: Martian Mono;
-    src: url(../fonts/MartianMonoVF.woff2) format("woff2"), url(../fonts/MartianMonoVF.ttf) format("truetype");
-    font-weight: 200 900;
-    font-style: normal;
-    font-display: swap
-}
-
 :root {
     --gfs: 14.4
 }
@@ -245,112 +152,6 @@ body {
     background: #ffffff
 }
 
-p a {
-    position: relative;
-    padding-bottom: calc(2/var(--gfs)*1rem)
-}
-
-p a:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: calc(1/var(--gfs)*1rem);
-    bottom: 0;
-    left: 0;
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    transition: transform .3s;
-    background-color: #000000
-}
-
-p a:hover:after {
-    transform: scaleX(0);
-    transform-origin: bottom right
-}
-
-#__modal {
-    position: relative;
-    z-index: 995
-}
-
-.slice-simulator {
-    color: #000 !important;
-    background: #fff !important
-}
-
-html.lenis {
-    height: auto
-}
-
-.lenis.lenis-smooth {
-    scroll-behavior: auto
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain
-}
-
-.lenis.lenis-stopped {
-    overflow: hidden
-}
-
-.lenis.lenis-scrolling iframe {
-    pointer-events: none
-}
-
-::-webkit-scrollbar {
-    width: 0;
-    height: 0
-}
-
-* {
-    scrollbar-width: none;
-    -ms-overflow-style: none
-}
-
-::-webkit-scrollbar-thumb,
-::-webkit-scrollbar-track {
-    background: transparent
-}
-
-.line,
-.split {
-    position: relative
-}
-
-.line {
-    display: block
-}
-
-.word {
-    white-space: pre
-}
-
-.char,
-.word {
-    position: relative;
-    display: inline-block
-}
-
-.line>.wrap,
-.split>.wrap {
-    position: relative;
-    overflow: hidden
-}
-
-.line>.wrap {
-    display: inline
-}
-
-@media screen and (max-width:480px) {
-    :root {
-        --gfs: 3.75
-    }
-
-    html {
-        overflow: visible
-    }
-}
 
 .text_XS {
     text-transform: uppercase
@@ -358,6 +159,7 @@ html.lenis {
 
 .text_XS,
 .text_XS2 {
+    font-family: Consolas;
     font-size: calc(12/var(--gfs)*1rem);
     line-height: 1.2;
     letter-spacing: -.04em

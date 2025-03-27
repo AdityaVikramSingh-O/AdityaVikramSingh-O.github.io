@@ -7,6 +7,13 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Redwing';
+    src: url('../font/Redwing-Light.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: 'Calibri', 'Arial', sans-serif;
     line-height: 1.6;
