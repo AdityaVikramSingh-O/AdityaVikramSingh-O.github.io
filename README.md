@@ -1,1 +1,1 @@
-🌐 **site**: [AdityaVikramSingh-O.github.io](https://AdityaVikramSingh-O.github.io)
+🌐  [**site**](https://AdityaVikramSingh-O.github.io)
